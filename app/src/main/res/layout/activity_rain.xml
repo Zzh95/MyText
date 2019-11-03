@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单张图片"
+        android:textSize="18sp"
+        android:id="@+id/btn_rain"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn_rain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片雨"
+        android:textSize="18sp"
+        android:id="@+id/tv_rains"
+        android:layout_centerInParent="true"
+        />
+    <com.example.myapplication.weight.OneImageRainView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rain"/>
+    <com.example.myapplication.weight.ImagesRainView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rains"/>
+
+</RelativeLayout>
